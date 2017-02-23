@@ -65,5 +65,10 @@ AWS_PROFILE=<your_profile> apex invoke hello
 "deploy-hello": "AWS_PROFILE=feliun apex deploy hello"
 ´´´
 
+- Pass a json and watch cloudtrail logs
+´´´
+"run-with-sample": "AWS_PROFILE=feliun apex invoke hello < sample.json"
+´´´
 
+FOR FURTHER INFO CHECK: http://apex.run/
 

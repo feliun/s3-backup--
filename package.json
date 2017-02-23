@@ -4,7 +4,12 @@
   "description": "service to backup s3 files with AWS lambdas",
   "scripts": {
     "deploy": "AWS_PROFILE=feliun apex deploy",
-    "deploy-hello": "AWS_PROFILE=feliun apex deploy hello"
+    "deploy-hello": "AWS_PROFILE=feliun apex deploy hello",
+    "run-with-sample": "AWS_PROFILE=feliun apex invoke hello < sample.json"
   },
-  "author": "Felipe Polo Ruiz <felipe.polo@gmail.com> (https://github.com/feliun)"
+  "author": "Felipe Polo Ruiz <felipe.polo@gmail.com> (https://github.com/feliun)",
+  "dependencies": {
+    "aws-sdk": "^2.18.0",
+    "ramda": "^0.23.0"
+  }
 }
