@@ -1,0 +1,10 @@
+{
+  "name": "s3-backup-lambda",
+  "version": "1.0.0",
+  "description": "service to backup s3 files with AWS lambdas",
+  "scripts": {
+    "deploy": "AWS_PROFILE=feliun apex deploy",
+    "deploy-hello": "AWS_PROFILE=feliun apex deploy hello"
+  },
+  "author": "Felipe Polo Ruiz <felipe.polo@gmail.com> (https://github.com/feliun)"
+}

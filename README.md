@@ -48,5 +48,22 @@ AWS_PROFILE=<your_profile> apex deploy
 AWS_PROFILE=<your_profile> apex invoke hello
 ```
 
+- set your runtime in project.json
+
+´´´
+"runtime": "nodejs4.3"
+´´´
+
+- Set your handler (for node it defaults to index.handler)
+
+´´´
+"handler": "index.handle"
+´´´
+
+- Deploy a function in particular
+´´´
+"deploy-hello": "AWS_PROFILE=feliun apex deploy hello"
+´´´
+
 
 

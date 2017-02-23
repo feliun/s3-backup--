@@ -3,6 +3,8 @@
   "description": "This is a backup manager for s3 folders",
   "memory": 128,
   "timeout": 5,
+  "runtime": "nodejs4.3",
   "role": "arn:aws:iam::029145065930:role/s3-backup_lambda_function",
-  "environment": {}
+  "environment": {},
+  "handler": "index.handle"
 }
