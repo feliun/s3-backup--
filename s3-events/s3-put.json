@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.0",
+            "eventSource": "aws:s3",
+            "awsRegion": "eu-west-1",
+            "eventTime": "2017-02-23T22:48:20.958Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A1NHQ2C6IMPF9W"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "213.37.16.139"
+            },
+            "responseElements": {
+                "x-amz-request-id": "1DF374AF496A8412",
+                "x-amz-id-2": "k+EmRYU/TyhmB17nTEnoIO0ICFX//zqO3CYav4QQxP+MWJHdVU7/MuZ9xFf4XW8DGyweJzxCqgo="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "backupTrigger",
+                "bucket": {
+                    "name": "feliun-basket",
+                    "ownerIdentity": {
+                        "principalId": "A1NHQ2C6IMPF9W"
+                    },
+                    "arn": "arn:aws:s3:::feliun-basket"
+                },
+                "object": {
+                    "key": "guidesmiths_logo.png",
+                    "size": 9536,
+                    "eTag": "91f5f1fed760431f0db80f80aad49c2a",
+                    "sequencer": "0058AF66B4E342A8EB"
+                }
+            }
+        }
+    ]
+}

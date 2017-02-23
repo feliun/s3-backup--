@@ -8,6 +8,5 @@ exports.handle = function(e, ctx, cb) {
         console.log('File name: ', record.s3.object.key);
         console.log('Operation: ', record.eventName);
     });
-    console.log('context: ', ctx);
     cb(null, { hello: 'world' });
 }
